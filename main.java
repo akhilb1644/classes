@@ -6,7 +6,7 @@ public class main {
 		King cOld = new King("Christian II","Oldenberg","Denmark","Norway");
 		
 		cOld.printGeneralInfo();
-		gustav.doDiplomacy("Muscovy");
+		gustav.doDiplomacy("Muscovy"); // Gustav does diplomacy with Muscovy
 		cOld.printPlacesRuled();
 	}
 }
