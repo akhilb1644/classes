@@ -17,7 +17,11 @@ public class King {
 	}
 	
 	public void printGeneralInfo() { // Get some general information of the monarch stored in the variable(in main class)
-		System.out.println(name + " of " + location + " of the " + dynasty + " Dynasty.");
+		System.out.println(name + " of the " + dynasty + " Dynasty ruled:");
+		for (int j = 0; j < location.length; j++) {
+			int n = j + 1;
+			System.out.println(n + ". " + location[j]);
+		}
 	}
 	
 	public void doDiplomacy(String Location) { // Conduct diplomacy with said nation
