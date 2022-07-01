@@ -1,10 +1,10 @@
 package Nested_Class;
 
-public class Byz {
+public class Byz { // This is the outer class
 	String name;
 	String dynasty;
 
-	class lekapenos {
+	class lekapenos { // This is the nested class, or the inner class
 		public lekapenos(String name) {
 			Byz.this.name = name;
 			Byz.this.dynasty = "Lekapenos";
