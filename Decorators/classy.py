@@ -11,11 +11,11 @@ class Person:
             func(self,*args,**kwargs)
         return reg
     
-    @show_id
+    @show_id # This is a decorator
     def take_debt(self,dollars):
         print(f"A debt of ${dollars} has been taken out.")
     
-    @show_id
+    @show_id # This is a decorator
     def fly_to_paris(self):
         print("I am flying to Paris.")
         
